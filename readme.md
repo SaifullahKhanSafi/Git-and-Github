@@ -25,3 +25,12 @@ Commands
 5. git commit -m "some message" -m "some message" (used to commit changes -m is message used to enter some description for the commit, necessary).
 6. git push origin main (used to upload your local commits to the remote repository's main branch on a platform like GitHub.)
 7. Now you will be able to see changes made to the repository in github.
+
+## making repository on local machine and then making it a github repo
+1. create a folder
+2. git init (to initialize git)
+3. git add .
+4. git commit
+5. To make it suitable to be pushed and an origin is made for this repo we can do this [git remote add origin (ssn)]
+6. to change branch from master to main [git branch main]
+7. git push -u origin main (-u is used so that onward we just use git push instead of writing the whole thing).
