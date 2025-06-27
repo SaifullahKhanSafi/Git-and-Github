@@ -36,5 +36,3 @@ Commands
 7. git push -u origin main (-u is used so that onward we just use git push instead of writing the whole thing).
 
 
-## feature branch
-hello
