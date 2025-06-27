@@ -38,4 +38,5 @@ Commands
 ## Feature Branch
 1. To create feature branch into your existing code [git checkout -b BRANCHNAME]. 
 2. Checkout command is used for changing branches while -b is used to create a new branch
-3. 
+3. If you commit the changes made, it will only be visible in the feature branch for now but if you change to main the changes won't be present there.
+4. 
