@@ -41,4 +41,8 @@ Commands
 3. If you commit the changes made, it will only be visible in the feature branch for now but if you change to main the changes won't be present there.
 4. Checkout to main branch and use diff command to view all the difference between feature and main branch
 [git diff FEATURENAME]
-5. 
+5. after commiting psh the changes on the feature branch as push request for the main using (git push -u origin FEATURENAME).
+6. after that check for the pull requests in the github repo and merge the pull request with the main code if approved.
+7. After approving the pull request you have to pull the code to your local machine using (git push origin main).
+8. To delete a approved feature branch (git branch -d BRANCHNAME).
+_______________________________________________________________________________________________________________
