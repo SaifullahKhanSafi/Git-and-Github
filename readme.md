@@ -47,4 +47,12 @@ Commands
 8. To delete a approved feature branch (git branch -d BRANCHNAME).
 _______________________________________________________________________________________________________________
 
+
 1. Hello
+2. Hi
+
+## Undoing git changes
+1. to undo any git changes you can use git reset.
+2. But if you have committed accidently than that commit is stages but what if you want to go back you can use (git rest HEAD~1). Basically this tells git that HEAD which is a pointer that points to commits it tell them using telda to go back one commit from the current.
+3. (git log ) to check for all the logs of commits made.
+4. (git reset --hard [logaddress]) to not just unstage the commit but also remove all the changes made.
