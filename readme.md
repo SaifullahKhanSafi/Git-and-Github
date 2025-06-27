@@ -46,3 +46,4 @@ Commands
 7. After approving the pull request you have to pull the code to your local machine using (git push origin main).
 8. To delete a approved feature branch (git branch -d BRANCHNAME).
 _______________________________________________________________________________________________________________
+
