@@ -35,4 +35,7 @@ Commands
 6. to change branch from master to main [git branch main]
 7. git push -u origin main (-u is used so that onward we just use git push instead of writing the whole thing).
 
-
+## Feature Branch
+1. To create feature branch into your existing code [git checkout -b BRANCHNAME]. 
+2. Checkout command is used for changing branches while -b is used to create a new branch
+3. 
